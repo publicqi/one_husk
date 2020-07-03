@@ -40,4 +40,10 @@ class fakeFile(object):
                     # char
                     to_concat.append(p16(self.vars_[field]))
 
-        return ''.join(to_concat)
+        return b''.join(to_concat)
+
+    def __str__(self):
+        return bytes(self)
+
+    def __bytes__(self):
+        return build(self)
