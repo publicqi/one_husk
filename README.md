@@ -1,3 +1,5 @@
+# Not finished and possibly won't be finished. I've passed my age for IO_FILE exploits
+
 # one_husk
 This tool is an improved version of `pwnlib.filepointer` from pwntools. Most code are from [pwntools/filepointer.py](https://github.com/Gallopsled/pwntools/blob/cc6d272760/pwnlib/filepointer.py#L94-L338). In this improved tool, you can directly modify `struct _IO_str_fields _s` use this tool. You can also auto-generate a getshell payload.
 
